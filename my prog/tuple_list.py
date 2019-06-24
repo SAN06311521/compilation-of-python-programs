@@ -1,0 +1,8 @@
+sample = (input("enter a sample data of integers: "))
+list = sample.split(",")
+print("the list form is : ")
+print(list)
+print("\n")
+tuple = tuple(list)
+print("the tuple form is : ")
+print(tuple)
